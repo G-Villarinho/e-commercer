@@ -1,0 +1,102 @@
+/* Animação básica de entrada */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.swal2-popup {
+    border-radius: 12px;
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    font-family: 'Poppins', sans-serif;
+    animation: slideIn 0.3s ease-out;
+    max-width: 400px;
+}
+
+/* Cores dos ícones */
+.swal2-icon.swal2-success {
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.swal2-icon.swal2-error {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.swal2-icon.swal2-warning {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+.swal2-icon.swal2-info {
+    color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+
+.swal2-title {
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.swal2-html-container {
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+/* Botões simplificados */
+.swal2-confirm {
+    background: #1a1a1a !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 10px 25px !important;
+    font-weight: 500 !important;
+    color: white !important;
+    transition: filter 0.2s ease !important;
+}
+
+.swal2-confirm:hover {
+    filter: brightness(1.1) !important;
+}
+
+.swal2-cancel {
+    background: #f8f9fa !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 6px !important;
+    padding: 10px 25px !important;
+    font-weight: 500 !important;
+    color: #495057 !important;
+    transition: background 0.2s ease !important;
+}
+
+.swal2-cancel:hover {
+    background: #e9ecef !important;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 480px) {
+    .swal2-popup {
+        width: 90% !important;
+        padding: 1.5rem !important;
+    }
+    
+    .swal2-title {
+        font-size: 20px;
+    }
+    
+    .swal2-html-container {
+        font-size: 14px;
+    }
+}
