@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/g-villarinho/xp-life-api/config"
-	"github.com/g-villarinho/xp-life-api/databases"
-	"github.com/g-villarinho/xp-life-api/models"
+	"github.com/g-villarinho/flash-buy-api/config"
+	"github.com/g-villarinho/flash-buy-api/databases"
+	"github.com/g-villarinho/flash-buy-api/models"
 )
 
 func main() {

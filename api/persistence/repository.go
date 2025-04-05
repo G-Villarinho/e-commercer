@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/g-villarinho/xp-life-api/models"
+	"github.com/g-villarinho/flash-buy-api/models"
 	"gorm.io/gorm"
 )
 

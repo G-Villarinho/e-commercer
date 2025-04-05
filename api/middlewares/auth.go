@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/g-villarinho/xp-life-api/config"
-	"github.com/g-villarinho/xp-life-api/handlers"
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/config"
+	"github.com/g-villarinho/flash-buy-api/handlers"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
 )

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"mime/multipart"
 
-	"github.com/g-villarinho/xp-life-api/clients"
-	"github.com/g-villarinho/xp-life-api/pkgs"
-	"github.com/g-villarinho/xp-life-api/utils"
+	"github.com/g-villarinho/flash-buy-api/clients"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/utils"
 )
 
 type ImageService interface {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/g-villarinho/xp-life-api/config"
+	"github.com/g-villarinho/flash-buy-api/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

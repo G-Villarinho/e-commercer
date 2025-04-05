@@ -7,9 +7,9 @@ import (
 	"log"
 	"text/template"
 
-	"github.com/g-villarinho/xp-life-api/clients"
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/clients"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 )
 
 type EmailNotification interface {

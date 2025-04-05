@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/g-villarinho/xp-life-api/config"
-	"github.com/g-villarinho/xp-life-api/models"
+	"github.com/g-villarinho/flash-buy-api/config"
+	"github.com/g-villarinho/flash-buy-api/models"
 	"github.com/labstack/echo/v4"
 )
 

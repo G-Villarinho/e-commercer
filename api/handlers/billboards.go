@@ -4,10 +4,10 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/pkgs"
-	"github.com/g-villarinho/xp-life-api/services"
-	"github.com/g-villarinho/xp-life-api/utils"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/services"
+	"github.com/g-villarinho/flash-buy-api/utils"
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 )

@@ -5,31 +5,31 @@ mockname: "{{ .InterfaceName }}Mock"
 dir: "mocks"
 outpkg: "mocks"
 packages:
-    github.com/g-villarinho/xp-life-api/clients:
-        config:
-            all: True
-            recursive: True
-    github.com/g-villarinho/xp-life-api/handlers:
-            config:
-                all: True
-                recursive: True
-    github.com/g-villarinho/xp-life-api/services:
-        config:
-            all: True
-            recursive: True
-    github.com/g-villarinho/xp-life-api/repositories:
-        config:
-            all: True
-            recursive: True
-    github.com/g-villarinho/xp-life-api/storages:
-        config:
-            all: True
-            recursive: True
-    github.com/g-villarinho/xp-life-api/pkgs:
-        config:
-            all: True
-            recursive: True
-    github.com/g-villarinho/xp-life-api/notifications:
-        config:
-            all: True
-            recursive: True
+  github.com/g-villarinho/flash-buy-api/clients:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/handlers:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/services:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/repositories:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/storages:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/pkgs:
+    config:
+      all: True
+      recursive: True
+  github.com/g-villarinho/flash-buy-api/notifications:
+    config:
+      all: True
+      recursive: True

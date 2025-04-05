@@ -1,4 +1,4 @@
-module github.com/g-villarinho/xp-life-api
+module github.com/g-villarinho/flash-buy-api
 
 go 1.24.1
 

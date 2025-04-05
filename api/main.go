@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/g-villarinho/xp-life-api/config"
-	"github.com/g-villarinho/xp-life-api/middlewares"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/config"
+	"github.com/g-villarinho/flash-buy-api/middlewares"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/pkgs"
-	"github.com/g-villarinho/xp-life-api/repositories"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/repositories"
 )
 
 const (

@@ -3,9 +3,9 @@ package repositories
 import (
 	"context"
 
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/persistence"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/persistence"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 )
 
 type OTPRepository interface {

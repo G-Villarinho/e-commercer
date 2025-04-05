@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/g-villarinho/xp-life-api/models"
-	"github.com/g-villarinho/xp-life-api/notifications"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/models"
+	"github.com/g-villarinho/flash-buy-api/notifications"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 )
 
 type RegisterService interface {

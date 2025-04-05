@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/g-villarinho/xp-life-api/config"
-	"github.com/g-villarinho/xp-life-api/pkgs"
+	"github.com/g-villarinho/flash-buy-api/config"
+	"github.com/g-villarinho/flash-buy-api/pkgs"
 	"github.com/labstack/echo/v4"
 )
 
